@@ -50,6 +50,12 @@ body
     background: white;
     padding: 1em;
 }
+#enlaces
+{
+    background-color: salmon;
+    color:wheat
+    padding: 1.5em;
+}
 
 #footer
 {
