@@ -1,0 +1,35 @@
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
+<html>
+    <head>
+        <title>Plantilla</title>
+        <link rel="stylesheet" href="css/estilos.css" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="cabecera">
+                Blog escuela
+            </div>
+            <div id="post">
+                <h1>El balance de masa de un condensador que hice para un proyecto escolar :) <br\> es tan hermoso</h1>
+                $$ 
+                \begin{split}
+                \frac{dm^v_c}{dt} =\dot{m}_{ic}- \frac{\dot{Q}_c}{\lambda}\\
+                \frac{d}{dt} \left(  (V_c-A^t_cL_c)\frac{P_c}{T_cz_c}\frac{MM}{R}  \right)=\dot{m}_{ic}-\frac{U_cA_c(T_c-T^e_c)}{\lambda}\\
+                \frac{V_cMM}{R}\frac{d\frac{P_c}{T_cz_c}}{dt}-\frac{A^t_cMM}{R} \left( \frac{P_c}{T_cz_c} \frac{dL_c}{dt} + L_c \frac{d \frac{P_c}{T_cz_c}}{dt} \right) = \dot{m}_{ic}-\frac{U_cA_c(T_c-T^e_c)}{\lambda} \\
+                \left( \frac{V_cMM}{R} - \frac{L_cA^t_cMM}{R} \right) \frac{d \frac{P_c}{T_cz_c}}{dt}= \dot{m}_{ic}-\frac{U_cA_c(T_c-T^e_c)}{\lambda}+ \frac{A^t_cMM}{R} \frac{P_c}{T_cz_c}\frac{1}{\rho^l_{NH_3}A^t_c} \left[\frac{U_cA_c(T_c-T^e_c)}{\lambda}- \dot{m}_{ie} \right]\\
+                \frac{d \frac{P_c}{T_cz_c}}{dt}=\frac{R}{MM(V_c-L_cA^t_c)} \left\lbrace \frac{U_cA_c(T_c-T^e_c)}{\lambda}\left[\frac{MM}{R} \frac{P_c}{T_cz_c}\frac{1}{\rho^l_{NH_3}}-1\right]   +\dot{m}_{ic} -\frac{MM}{R} \frac{P_c}{T_cz_c}\frac{1}{\rho^l_{NH_3}} \dot{m}_{ie}\right\rbrace
+                \end{split}
+ $$
+            
+            <div id="enlaces">
+                <h2>Enlaces</h2>
+                <p><a title="Titulo" href="https://isai-de-ix.github.io/">Texto</a></p>
+                <p><a title="Inicio" href="https://isai-de-ix.github.io/">Inicio</a></p>
+                <p><a title="escuela-as-a-startup" href="https://isai-de-ix.github.io/escuela-as-a-startup.html">escuela-as-a-startup</a></p>
+            <div id="footer">
+                <p>Hecho por Paquito e Isaí</p>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
