@@ -4,7 +4,7 @@ title:  "Cargando Ecuaciones"
 date:   2021-05-11 21:39:27 
 categories: Blogging
 ---
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 Muchos de nuestras clases muestran ecuaciones en ellas. de modo que las cargaremos al post usando mathjax. de modo que será tan sencillo como hacerlo en LaTex
 
