@@ -1,17 +1,20 @@
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
-<html>
-    <head>
-        <title>Plantilla</title>
-        <link rel="stylesheet" href="css/estilos.css" />
-    </head>
-    <body>
-        <div id="container">
-            <div id="cabecera">
-                Blog escuela
-            </div>
-            <div id="post">
-                <h1>El balance de masa de un condensador que hice para un proyecto escolar :) <br\> es tan hermoso</h1>
-                $$ 
+---
+layout: post
+title:  "Cargando Ecuaciones"
+date:   2021-05-11 21:39:27 
+categories: Blogging
+---
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+Muchos de nuestras clases muestran ecuaciones en ellas. de modo que las cargaremos al post usando mathjax. de modo que será tan sencillo como hacerlo en LaTex
+
+Fácilmente
+
+$$ e=mc^2 $$
+
+Escribiendolas entre `$$ $$`
+
+$$ 
                 \begin{split}
                 \frac{dm^v_c}{dt} =\dot{m}_{ic}- \frac{\dot{Q}_c}{\lambda}\\
                 \frac{d}{dt} \left(  (V_c-A^t_cL_c)\frac{P_c}{T_cz_c}\frac{MM}{R}  \right)=\dot{m}_{ic}-\frac{U_cA_c(T_c-T^e_c)}{\lambda}\\
@@ -20,16 +23,26 @@
                 \frac{d \frac{P_c}{T_cz_c}}{dt}=\frac{R}{MM(V_c-L_cA^t_c)} \left\lbrace \frac{U_cA_c(T_c-T^e_c)}{\lambda}\left[\frac{MM}{R} \frac{P_c}{T_cz_c}\frac{1}{\rho^l_{NH_3}}-1\right]   +\dot{m}_{ic} -\frac{MM}{R} \frac{P_c}{T_cz_c}\frac{1}{\rho^l_{NH_3}} \dot{m}_{ie}\right\rbrace
                 \end{split}
  $$
-            
-            <div id="enlaces">
-                <h2>Enlaces</h2>
-                <p><a title="Titulo" href="https://isai-de-ix.github.io/">Texto</a></p>
-                <p><a title="Inicio" href="https://isai-de-ix.github.io/">Inicio</a></p>
-                <p><a title="escuela-as-a-startup" href="https://isai-de-ix.github.io/escuela-as-a-startup.html">escuela-as-a-startup</a></p>
-            <div id="footer">
-                <p>Hecho por Paquito e Isaí</p>
-            </div>
-            </div>
-        </div>
-    </body>
-</html>
+ 
+ Hay que tener cuidado porque las ecuaciones se Salen por la derecha de la pantalla de un modo que no sorprende a los usuarios de LaTex
+ 
+ funcionan incluso otros comandos que hacen funcionar a las ecuaciones en LaTex, como`\begin{split}`, que permite escribir la ecuación en varios renglones
+ 
+# Pro Tip
+Simplemente agregar el siguiente código al inicio del post
+```
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+```  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

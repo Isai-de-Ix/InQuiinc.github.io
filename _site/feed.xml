@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-11T22:14:36-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">InQui inc.</title><subtitle>InQui Inc. Clases y tutoriales para Ingeniería Química</subtitle><entry><title type="html">Cargando Ecuaciones</title><link href="http://localhost:4000/blogging/2021/05/11/Ecuacion.html" rel="alternate" type="text/html" title="Cargando Ecuaciones" /><published>2021-05-11T16:39:27-05:00</published><updated>2021-05-11T16:39:27-05:00</updated><id>http://localhost:4000/blogging/2021/05/11/Ecuacion</id><content type="html" xml:base="http://localhost:4000/blogging/2021/05/11/Ecuacion.html">&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Muchos de nuestras clases muestran ecuaciones en ellas. de modo que las cargaremos al post usando mathjax. de modo que será tan sencillo como hacerlo en LaTex&lt;/p&gt;
+
+&lt;p&gt;Fácilmente&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;e=mc^2&lt;/script&gt;
+
+&lt;p&gt;Escribiendolas entre &lt;code class=&quot;highlighter-rouge&quot;&gt;$$ $$&lt;/code&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{split}
+                \frac{dm^v_c}{dt} =\dot{m}_{ic}- \frac{\dot{Q}_c}{\lambda}\\
+                \frac{d}{dt} \left(  (V_c-A^t_cL_c)\frac{P_c}{T_cz_c}\frac{MM}{R}  \right)=\dot{m}_{ic}-\frac{U_cA_c(T_c-T^e_c)}{\lambda}\\
+                \frac{V_cMM}{R}\frac{d\frac{P_c}{T_cz_c}}{dt}-\frac{A^t_cMM}{R} \left( \frac{P_c}{T_cz_c} \frac{dL_c}{dt} + L_c \frac{d \frac{P_c}{T_cz_c}}{dt} \right) = \dot{m}_{ic}-\frac{U_cA_c(T_c-T^e_c)}{\lambda} \\
+                \left( \frac{V_cMM}{R} - \frac{L_cA^t_cMM}{R} \right) \frac{d \frac{P_c}{T_cz_c}}{dt}= \dot{m}_{ic}-\frac{U_cA_c(T_c-T^e_c)}{\lambda}+ \frac{A^t_cMM}{R} \frac{P_c}{T_cz_c}\frac{1}{\rho^l_{NH_3}A^t_c} \left[\frac{U_cA_c(T_c-T^e_c)}{\lambda}- \dot{m}_{ie} \right]\\
+                \frac{d \frac{P_c}{T_cz_c}}{dt}=\frac{R}{MM(V_c-L_cA^t_c)} \left\lbrace \frac{U_cA_c(T_c-T^e_c)}{\lambda}\left[\frac{MM}{R} \frac{P_c}{T_cz_c}\frac{1}{\rho^l_{NH_3}}-1\right]   +\dot{m}_{ic} -\frac{MM}{R} \frac{P_c}{T_cz_c}\frac{1}{\rho^l_{NH_3}} \dot{m}_{ie}\right\rbrace
+                \end{split}&lt;/script&gt;
+
+&lt;p&gt;Hay que tener cuidado porque las ecuaciones se Salen por la derecha de la pantalla de un modo que no sorprende a los usuarios de LaTex&lt;/p&gt;
+
+&lt;p&gt;funcionan incluso otros comandos que hacen funcionar a las ecuaciones en LaTex, como&lt;code class=&quot;highlighter-rouge&quot;&gt;\begin{split}&lt;/code&gt;, que permite escribir la ecuación en varios renglones&lt;/p&gt;
+
+&lt;h1 id=&quot;pro-tip&quot;&gt;Pro Tip&lt;/h1&gt;
+&lt;p&gt;Simplemente agregar el siguiente código al inicio del post&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="Blogging" /><summary type="html"></summary></entry></feed>
