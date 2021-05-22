@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-11T22:14:36-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">InQui inc.</title><subtitle>InQui Inc. Clases y tutoriales para Ingeniería Química</subtitle><entry><title type="html">Cargando Ecuaciones</title><link href="http://localhost:4000/blogging/2021/05/11/Ecuacion.html" rel="alternate" type="text/html" title="Cargando Ecuaciones" /><published>2021-05-11T16:39:27-05:00</published><updated>2021-05-11T16:39:27-05:00</updated><id>http://localhost:4000/blogging/2021/05/11/Ecuacion</id><content type="html" xml:base="http://localhost:4000/blogging/2021/05/11/Ecuacion.html">&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-21T21:20:32-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">InQui inc.</title><subtitle>InQui Inc. Clases y tutoriales para Ingeniería Química</subtitle><entry><title type="html">Cargando Ecuaciones</title><link href="http://localhost:4000/blogging/2021/05/11/Ecuacion.html" rel="alternate" type="text/html" title="Cargando Ecuaciones" /><published>2021-05-11T16:39:27-05:00</published><updated>2021-05-11T16:39:27-05:00</updated><id>http://localhost:4000/blogging/2021/05/11/Ecuacion</id><content type="html" xml:base="http://localhost:4000/blogging/2021/05/11/Ecuacion.html">&lt;p&gt;include mathjax_support.html&lt;/p&gt;
 
 &lt;p&gt;Muchos de nuestras clases muestran ecuaciones en ellas. de modo que las cargaremos al post usando mathjax. de modo que será tan sencillo como hacerlo en LaTex&lt;/p&gt;
 
@@ -22,5 +22,47 @@
 
 &lt;h1 id=&quot;pro-tip&quot;&gt;Pro Tip&lt;/h1&gt;
 &lt;p&gt;Simplemente agregar el siguiente código al inicio del post&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="Blogging" /><summary type="html"></summary></entry></feed>
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;include mathjax_support.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="Blogging" /><summary type="html">include mathjax_support.html</summary></entry><entry><title type="html">Mi trabajo 2021</title><link href="http://localhost:4000/isa%C3%AD/pinturas/2021/05/11/Mi-trabajo.html" rel="alternate" type="text/html" title="Mi trabajo 2021" /><published>2021-05-11T16:39:27-05:00</published><updated>2021-05-11T16:39:27-05:00</updated><id>http://localhost:4000/isa%C3%AD/pinturas/2021/05/11/Mi-trabajo</id><content type="html" xml:base="http://localhost:4000/isa%C3%AD/pinturas/2021/05/11/Mi-trabajo.html">&lt;blockquote&gt;
+  &lt;p&gt;Mi título es Laboratorista especializado&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Después de ser Laboratorista técnico por 1.08 años Me han asignado proyectos de creatividad muy complicados&lt;/p&gt;
+
+&lt;h2 id=&quot;laca-de-secado-rápido&quot;&gt;Laca de secado rápido&lt;/h2&gt;
+
+&lt;p&gt;Basada en nitrocelulosa, necesitábamos una laca al solvente de secado al tacto de t_tacto = 11 minutos y de alta dureza. La dureza tenía que completarse en un tiempo no mayor a 4 veces t_tacto.&lt;/p&gt;
+
+&lt;h4 id=&quot;lacas-de-nitrocelulosa&quot;&gt;Lacas de nitrocelulosa&lt;/h4&gt;
+
+&lt;p&gt;Son baratas, de alto peso molecular, basadas en el famoso explosivo: NITROCELULOSA.&lt;/p&gt;
+
+&lt;h4 id=&quot;sistemas-de-poliuretano-alkidalico&quot;&gt;Sistemas de poliuretano alkidalico&lt;/h4&gt;
+
+&lt;p&gt;utilizan resinas de poliester de poli (anhidrido phtalico - glicerol) modificadas con aceite (principalmente de origen vegetal)&lt;/p&gt;
+
+&lt;p&gt;La reactividad de las resinas alkidalicas ocurre entre las insaturaciones del aceite en el proceso conocido como oxidación autocatalítica. En el caso de los sistemas de uretano la reacción ocurre entre grupos hidroxilo por parte del alkyd y grupos isocianato por parte del componente reticulante&lt;/p&gt;
+
+&lt;p&gt;La laca se completó combinando nitrocelulosa con alkidal de ricino hidrógenado (aumenta la reactividad al reducir poliuretánica un grupo carboxilo a un grupo hidroxilo)&lt;/p&gt;
+
+&lt;h2 id=&quot;esmalte-fuerte&quot;&gt;Esmalte Fuerte&lt;/h2&gt;
+
+&lt;p&gt;El objetivo parecía ser una igualación de color y resultó en un diseño de experimentos optimizando la cantidad de catalizadores organometálicos de calcio, cobalto, zinc y circonio&lt;/p&gt;
+
+&lt;h2 id=&quot;recubrimiento-de-poliester&quot;&gt;Recubrimiento de poliester&lt;/h2&gt;
+
+&lt;h5 id=&quot;los-sistemas-de-poliester-alkydalico-no-suelen-ser-considerados-en-esta-categoría&quot;&gt;Los sistemas de poliester alkydalico no suelen ser considerados en esta categoría&lt;/h5&gt;
+
+&lt;p&gt;Recubrimiento termostable transparente. Se forma al reticular una solución de poliester insaturado con cadenas de poliestireno.&lt;/p&gt;
+
+&lt;p&gt;La reacción inicia con la descomposición de un peróxido en 2 radicales libres, iniciando la reacción en cadena entre el monómero de estireno y la insaturación del polímero de pliéster.&lt;/p&gt;
+
+&lt;p&gt;La reacción es inhibida por el oxígeno atmosférico y por lo tanto es necesario proteger el recubrimiento de tal contacto.
+Se tienen 2 vías&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;física&lt;/li&gt;
+  &lt;li&gt;química&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;El método físico implica un recubrimiento impermeable sobre el recubrimiento de poliéster mientras que el método químico implica capturar el oxígeno entrante y se puede lograr con reacciónes autooxidativas en moleculas de éter insaturado&lt;/p&gt;</content><author><name></name></author><category term="Isaí" /><category term="Pinturas" /><summary type="html">Mi título es Laboratorista especializado</summary></entry></feed>
